@@ -34,3 +34,6 @@ if(strchr(recv_buf, '{')!=NULL)
 
 2021-02-03
 http_send_mes(),DNS lookup failed err,增加return
+
+2022-01-06
+高度角度本地自动计算方法更新
