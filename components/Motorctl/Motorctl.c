@@ -13,8 +13,8 @@
 #define MOTOR_CTL2   25
 
 //#define GJ5620              //big motor
-//#define GJ5606K             //
-#define GJ5606K_exb             //zhan jia 
+#define GJ5606K             //
+//#define GJ5606K_exb             //zhan jia 
 
 
 #ifdef GJ5620
@@ -93,6 +93,10 @@
 #define ANGLE_60TO70        80
 #define ANGLE_70TO80        500//29
 
+#define ANGLE_0TO30         325
+#define ANGLE_30TO50        146
+#define ANGLE_50TO80        646
+
 
 #define ANGLE_0TON0         50
 #define ANGLE_10TO0         75
@@ -111,6 +115,9 @@
 #define ANGLE_80TO10        750
 #define ANGLE_80TO0         1000//950
 
+#define ANGLE_30TO0         225
+#define ANGLE_50TO30        225
+
 
 //下降
 //#define HEIGHT_TOTAL    58000
@@ -126,6 +133,8 @@
 #define HEIGHT_20TO10      4730
 #define HEIGHT_10TO0       6000  //4958
 
+#define HEIGHT_100TO0    43000
+
 //上升
 #define HEIGHT_0TO10       4843
 #define HEIGHT_10TO20      4608
@@ -137,6 +146,8 @@
 #define HEIGHT_70TO80      3581
 #define HEIGHT_80TO90      3468
 #define HEIGHT_90TO100     4000  //3401
+
+#define HEIGHT_0TO100      43000
 
 // #define HEIGHT_100TO90    2252
 // #define HEIGHT_90TO80      2334
